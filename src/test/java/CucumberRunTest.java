@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/features", tags = "@google")
+@CucumberOptions(features = "src/test/resources/features", tags = "@google", glue = "")
 
 public class CucumberRunTest {
     private static Application application;
